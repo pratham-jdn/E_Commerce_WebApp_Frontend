@@ -37,7 +37,7 @@ const Checkout = () => {
       const { orderId, amount: orderAmount } = orderRepons.data;
 
       var options = {
-        key: "rzp_test_RU9Tvoei7kcmYd", // Enter the Key ID generated from the Dashboard
+        key: import.meta.env.VITE_RAZORPAY_KEY_ID, // Enter the Key ID generated from the Dashboard
         amount: orderAmount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: "INR",
         name: "Pratham",
