@@ -113,7 +113,7 @@ const Navbar = () => {
               className="items"
               onClick={() => filterbyCategory("headphones")}
             >
-              Hedphones
+              Headphones
             </div>
             <div className="items" onClick={() => filterbyPrice(15999)}>
               15999
