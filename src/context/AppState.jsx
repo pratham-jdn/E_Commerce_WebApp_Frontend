@@ -108,6 +108,7 @@ const url = "https://e-commerce-webapp-api.onrender.com/api";
     setToken(api.data.token);
     setIsAuthenticated(true);
     localStorage.setItem("token", api.data.token);
+    console.log("token set in local storage", api.data.token);
     return api.data;
   };
 
