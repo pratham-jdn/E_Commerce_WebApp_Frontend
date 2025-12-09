@@ -12,7 +12,7 @@ const AdminPanel = () => {
     imgSrc: "",
   });
 
-  const API_URL = "https://e-commerce-webapp-api.onrender.com/api/product/add";
+  const API_URL = "https://e-commerce-webapp-y36e.onrender.com/api/product/add";
 
   // Handle input change
   const handleChange = (e) => {
